@@ -6,12 +6,12 @@ const audio = document.getElementById("audio")
 
 play_btn.addEventListener('click',()=>{
     audio.play();
-    image.index.animationPlayState = "running"
+    image.style.animationPlayState = "running"
 })
 
 pause_btn.addEventListener('click',()=>{
     audio.pause();
-    image.index.animationPlayState = "paused"
+    image.style.animationPlayState = "paused"
 })
 
 replay_btn.addEventListener('click',()=>{
