@@ -16,5 +16,5 @@ pause_btn.addEventListener('click',()=>{
 
 replay_btn.addEventListener('click',()=>{
     audio.load();
-    image.style.animationPlayState = "running"
+    image.style.animationPlayState = "paused"
 })

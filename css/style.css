@@ -30,25 +30,23 @@ body{
 .image_container{
     display: flex;
     justify-content: space-around;
-    animation-name: girar;
-    animation-duration: 7s;
-    animation-iteration-count: infinite;
-    animation-timing-function: lineal;
-    animation-play-state: paused;
-}
-
-@keyframes girar{
-    from{
-        transform:rotate(0deg);
-    }
-    to{
-        transform:rotate(360deg);
-    }
 }
 
 .image{
     border-radius: 50%;
     width: 60%;
+    animation-name: girar;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-play-state: paused;
+    animation-direction: normal;
+    animation-timing-function: linear;
+}
+
+
+@keyframes girar{
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
 }
 
 .title{
